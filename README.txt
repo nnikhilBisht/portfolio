@@ -3,8 +3,8 @@ Nikhil Bisht - Portfolio
 Files:
   index.html                     - page content
   style.css                      - all styling (colours are the variables at the top)
-  assets/photo.jpg               - your profile photo (replace with another image of the same name)
-  assets/Nikhil_Bisht_Resume.pdf - resume used by the Download button (replace to update it)
+  photo.jpg               - your profile photo (replace with another image of the same name)
+  Nikhil_Bisht_Resume.pdf - resume used by the Download button (replace to update it)
 
 How to use:
   1. Unzip the folder.

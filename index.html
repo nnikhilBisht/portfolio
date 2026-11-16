@@ -25,7 +25,7 @@
     <p class="lead">I’m interested in entrepreneurship, marketing, finance and emerging technology, and I like applying business thinking to products people actually use.</p>
     <div class="btns"><a class="btn fill" href="#projects">See my projects</a><a class="btn line" href="#contact">Get in touch</a></div>
     </div>
-    <figure class="photo"><img src="assets/photo.jpg" alt="Portrait of Nikhil Bisht" width="760" height="760"></figure>
+    <figure class="photo"><img src="photo.jpg" alt="Portrait of Nikhil Bisht" width="760" height="760"></figure>
   </div>
 </div>
 
@@ -146,7 +146,7 @@
 <section id="resume" class="resume">
   <div class="resume-card">
     <div><h2>Resume</h2><p>My education, experience, projects and skills in one document.</p></div>
-    <a id="resume-btn" class="btn fill" href="assets/Nikhil_Bisht_Resume.pdf" download="Nikhil_Bisht_Resume.pdf">Download resume (PDF)</a>
+    <a id="resume-btn" class="btn fill" href="Nikhil_Bisht_Resume.pdf" download="Nikhil_Bisht_Resume.pdf">Download resume (PDF)</a>
   </div>
 </section>
 </div>
@@ -172,7 +172,7 @@
   btn.addEventListener('click',function(e){
     if(!dl)return;
     e.preventDefault();
-    fetch('assets/Nikhil_Bisht_Resume.pdf').then(function(r){return r.blob();}).then(function(b){
+    fetch('Nikhil_Bisht_Resume.pdf').then(function(r){return r.blob();}).then(function(b){
       return dl.save({filename:'Nikhil_Bisht_Resume.pdf',data:b});
     }).catch(function(){});
   });
